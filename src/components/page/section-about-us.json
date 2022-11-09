@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_section_aboutuses",
+  "info": {
+    "displayName": "sectionAboutUs",
+    "icon": "user-astronaut"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    }
+  }
+}
